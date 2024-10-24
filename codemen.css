@@ -1,0 +1,85 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    padding-left: 3%;
+    padding-right: 3%;
+    border-radius: 20px;
+    position: sticky;
+    box-shadow: 0 0 10px white;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: black;
+}
+
+nav > a{
+    color: white;
+    text-decoration: none;
+}
+nav>a:hover{
+    font-weight: bolder;
+    font-size: large;
+    text-decoration: underline;
+}
+#loginbtn{
+    background-color: orangered;
+    padding: 1%;
+    font-size: large;
+    border: none;
+    border-radius: 20px;
+    color: white;
+}
+#loginbtn:hover{
+    transform: scale(1.2);
+    box-shadow: 0 0 2px white;
+}
+main{
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 12px;
+}
+#about{
+    max-width: 45%;
+    min-width: 45%;
+    border-right: 2px white solid;
+    padding-right: 5%;
+    padding-left: 2%;
+}
+#courses{
+    min-width: 45%;
+    max-width: 45%;
+}
+h2{
+    color: orangered;
+}
+p{
+    color: white;
+}
+li{
+    color: white;
+}
+#course-cont{
+    padding-left: -10%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+}
+#cpp, #aiml, #blockchain{
+    width: 150px;
+    height: 150px;
+}
+#android{
+    width: 150px;
+    height: 200px;
+}
+#web{
+    height: 150px;
+}
+img:hover{
+    transform: scale(1.2);
+}
