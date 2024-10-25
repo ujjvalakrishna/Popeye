@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Code Mentees</title>
+    <link rel="stylesheet" href="../Popeye/codemen.css">
 </head>
-<style>
+<!-- <style>
     *{
         margin: 0;
         padding: 0;
@@ -63,21 +64,21 @@
         margin: 0 10px 0 10px;
     }
 
-</style>
+</style> -->
 <body>
     <header>
-         <h1>Code Mentees</h1>
+         <h1>Code <span style="color: orangered;">Mentees</span></h1>
+         <nav>
+            <a href="#">Home</a>&nbsp;&nbsp;&nbsp;
+            <a href="#">Courses</a>&nbsp;&nbsp;&nbsp;
+            <a href="StudyMaterial.html">Study Material</a>&nbsp;&nbsp;&nbsp;
+            <a href="#">Job Referrals</a>&nbsp;&nbsp;&nbsp;
+        </nav>
+        <button id="loginbtn" href="#">Login</button>
     </header>
-    <nav>
-        <a href="#">Home</a>&nbsp;&nbsp;&nbsp;
-        <a href="#">Courses</a>&nbsp;&nbsp;&nbsp;
-        <a href="StudyMaterial.html">Study Material</a>&nbsp;&nbsp;&nbsp;
-        <a href="#">Login/SignUp</a>&nbsp;&nbsp;&nbsp;
-        <a href="#">Job Referrals</a>
-    
-    </nav>
+
     <main>
-        <section>
+        <section id="about">
             <h2> About </h2>
             <p>Welcome to our platform, your go-to destination for finding the best resources to accelerate your tech learning journey. 
                 Whether you are a beginner looking to get started in programming, or a seasoned developer aiming to expand your skills in the latest technologies, 
@@ -90,14 +91,21 @@
             </p>
 
         </section>
-        <section>
+        <section id="courses">
             <h2>Courses</h2>
-            <li>C++</p>
+            <div id="course-cont">
+                <img src="../Popeye/c++.png" alt="c++" id="cpp">
+                <img src="../Popeye/aiml.png" alt="aiml++" id="aiml">
+                <img src="../Popeye/android.png" alt="android" id="android">
+                <img src="../Popeye/blockchain.png" alt="blockchain" id="blockchain">
+                <img src="../Popeye/web2.png" alt="web" id="web">
+            </div>
+            <!-- <li>C++</li>
             <li>Web Development</li>
             <li>Android Development</li>
             <li>Artificial Intelligence/</li>
             <li>Machine Learning</li>
-        
+         -->
         </section>        
     </main>
 </body>
