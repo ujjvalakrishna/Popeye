@@ -1,0 +1,80 @@
+*{
+    margin:0;
+    padding: 0;;
+    width: 400px;
+box-sizing:border-box;
+box-align: center;
+
+
+
+}
+
+body{
+background-color:#3485b1/*rgb(49, 145, 187)*/;
+display:flex;
+/*justify-content:center;
+ flex-direction:column;*/
+
+
+}
+#container{
+    background-color: rgb(233, 220, 220);
+    margin-right: 25px;
+    padding: 25px;
+    border-radius: 20px;
+
+
+}
+
+
+button{
+    background-color:#3485b1;
+    color: white;
+    width: 371px;
+    align-items: center;
+}
+h2,h1{
+    color: white;
+}
+#ram{
+    color:#3485b1;
+    background-color: white;
+}
+#mohan{
+    align:center;
+    justify-content: center;
+    position: fixed;
+    right: 500px;
+    left: 450px;
+    
+
+}
+#firstname,#lastname,#email,#password{
+    width: 350px;
+    align:center;
+    margin-right: 20px;
+    justify-content:space-evenly;
+
+
+}
+input[type="first name"]{
+    border-color:#007bf1;
+    outline: navy;
+     border-radius:5px;
+}
+input[type="last name"]{
+    border-color:#007bf1;
+    outline: navy;
+     border-radius:5px;
+}
+input[type="email"]{
+    border-color:#007bf1;
+    outline: navy;
+     border-radius:5px;
+}
+input[type="password"]{
+    border-color:#007bf1;
+    outline: navy;
+     border-radius:5px;
+}
+ 
